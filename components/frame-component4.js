@@ -31,7 +31,7 @@ const FrameComponent4 = ({ className = "" }) => {
           <div className="relative leading-[150%] inline-block min-w-[49px]">
           <Link className="no-underline text-current" href="/">Home</Link>
           </div>
-          <div className="relative leading-[150%] whitespace-nowrap"><Link className="no-underline text-current" href="support-page-desktop">{`Movies & Shows`}</Link></div>
+          <div className="relative leading-[150%] whitespace-nowrap"><Link className="no-underline text-current" href="movies-shows-page">{`Movies & Shows`}</Link></div>
           <div className="relative leading-[150%] inline-block min-w-[68px]">
           <Link className="no-underline text-current" href="support-page-desktop">Support</Link>
           </div>
