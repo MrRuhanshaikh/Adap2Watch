@@ -10,7 +10,7 @@ import Footer from "../components/footer";
 
 const HomePageDesktop = () => {
   return (
-    <div className="w-full relative bg-black-08 flex flex-col items-start justify-start gap-3.5 leading-[normal] tracking-[normal] text-center text-[58px] text-absolute-white font-manrope">
+    <div className="overflow-x-hidden w-full relative bg-black-08 flex flex-col items-start justify-start gap-3.5 leading-[normal] tracking-[normal] text-center text-[58px] text-absolute-white font-manrope">
       <div className="self-stretch flex flex-col items-start justify-start max-w-full">
         <div className="self-stretch h-[860px] flex flex-col items-start justify-start relative gap-5 mq1825:h-auto mq1825:min-h-[860]">
           <img
