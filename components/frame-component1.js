@@ -70,13 +70,6 @@ const FrameComponent1 = ({ className = "" }) => {
           image3="/image-521@2x.png"
           heading="Drama"
         />
-        <Card
-          image="/image-53@2x.png"
-          image1="/image-54@2x.png"
-          image2="/image-55@2x.png"
-          image3="/image-56@2x.png"
-          heading="Horror"
-        />
       </div>
     </div>
   );
