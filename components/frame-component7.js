@@ -14,7 +14,7 @@ const FrameComponent7 = ({ className = "" }) => {
       className={`self-stretch flex flex-row items-start justify-center py-0 pl-5 pr-[22px] box-border max-w-full text-center text-xl text-absolute-white font-manrope ${className}`}
     >
       <div className="h-[3184px] w-[1598px] relative max-w-full mq1575:h-auto mq1575:min-h-[3184]">
-        <div className="absolute top-[0px] left-[50px] rounded-lg bg-red-45 flex flex-row items-start justify-start py-2.5 px-6">
+        <div className="absolute top-[-40px] left-[50px] rounded-lg bg-red-45 flex flex-row items-start justify-start py-2.5 px-6">
           <div className="relative leading-[150%] font-semibold inline-block min-w-[68px] mq450:text-base mq450:leading-[24px]">
             Movies
           </div>
@@ -55,14 +55,14 @@ const FrameComponent7 = ({ className = "" }) => {
                 heading="Drama"
                 icon="/icon1.svg"
               />
-              <Card3
+              {/* <Card3
                 image="/image19@2x.png"
                 image1="/image20@2x.png"
                 image2="/image22@2x.png"
                 image3="/image23@2x.png"
                 heading="Horror"
                 icon="/icon1.svg"
-              />
+              /> */}
             </div>
           </div>
           <div className="self-stretch flex flex-col items-start justify-start gap-[50px] max-w-full text-19xl text-absolute-white mq825:gap-[25px]">
@@ -177,18 +177,6 @@ const FrameComponent7 = ({ className = "" }) => {
                 text1="3K"
                 propMinWidth2="19px"
               />
-              <Card5
-                propFlex="1"
-                propMinWidth="278px"
-                image="/image44@2x.png"
-                propHeight="281px"
-                text="1h 42min"
-                propMinWidth1="66px"
-                propWidth="64px"
-                icon="/icon4.svg"
-                text1="5K"
-                propMinWidth2="20px"
-              />
             </div>
           </div>
           <div className="self-stretch flex flex-col items-start justify-start gap-[50px] max-w-full text-center mq825:gap-[25px]">
@@ -198,7 +186,6 @@ const FrameComponent7 = ({ className = "" }) => {
               <Card6 image="/image46@2x.png" april2023="22 April 2023" />
               <Card6 image="/image47@2x.png" april2023="13 April 2023" />
               <Card6 image="/image48@2x.png" april2023="19 April 2023" />
-              <Card6 image="/image49@2x.png" april2023="11 April 2023" />
             </div>
           </div>
           <div className="self-stretch flex flex-col items-start justify-start gap-[50px] max-w-full mq825:gap-[25px]">

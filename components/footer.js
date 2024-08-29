@@ -117,7 +117,7 @@ const Footer = ({ className = "" }) => {
         <div className="self-stretch h-px relative border-black-15 border-t-[1px] border-solid box-border" />
         <div className="self-stretch flex flex-row items-center justify-between max-w-full gap-5 mq925:flex-wrap">
           <div className="relative leading-[150%]">
-            @2023 streamvib, All Rights Reserved
+            &copy;Adap2Watch || All Rights Reserved
           </div>
           <div className="h-[27px] w-[411px] flex flex-row items-start justify-start gap-5 max-w-full">
             <div className="flex-1 relative leading-[150%] inline-block min-w-[108px] shrink-0">

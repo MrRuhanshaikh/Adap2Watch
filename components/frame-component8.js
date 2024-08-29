@@ -11,59 +11,9 @@ const FrameComponent8 = ({ className = "" }) => {
     <div
       className={`self-stretch flex flex-row items-start justify-center py-0 pl-5 pr-[21px] box-border max-w-full text-center text-xl text-absolute-white font-manrope ${className}`}
     >
-      <div className="h-[3318px] w-[1597px] relative max-w-full mq1575:h-auto mq1575:min-h-[3318]">
-        <div className="absolute top-[0px] left-[50px] rounded-lg bg-red-45 flex flex-row items-start justify-start py-2.5 px-6">
-          <div className="relative leading-[150%] font-semibold inline-block min-w-[64px] mq450:text-base mq450:leading-[24px]">
-            Shows
-          </div>
-        </div>
-        <div className="absolute top-[20px] left-[0px] rounded-xl border-black-15 border-[1px] border-solid box-border w-full flex flex-col items-start justify-start py-12 px-[49px] gap-[100px] max-w-full z-[1] text-left text-19xl mq825:gap-[50px] mq1250:pl-6 mq1250:pr-6 mq1250:box-border mq450:gap-[25px]">
-          <div className="self-stretch flex flex-col items-start justify-start gap-[50px] max-w-full mq825:gap-[25px]">
-            <FrameComponent5 heading="Our Genres" />
-            <div className="self-stretch flex flex-row items-start justify-center flex-wrap content-start gap-[30px] mq825:gap-[15px]">
-              <Card3
-                image="/image54@2x.png"
-                image1="/image55@2x.png"
-                image2="/image56@2x.png"
-                image3="/image57@2x.png"
-                heading="Action"
-                icon="/icon-51.svg"
-              />
-              <Card3
-                image="/image58@2x.png"
-                image1="/image59@2x.png"
-                image2="/image60@2x.png"
-                image3="/image61@2x.png"
-                heading="Adventure"
-                icon="/icon-51.svg"
-              />
-              <Card3
-                image="/image62@2x.png"
-                image1="/image63@2x.png"
-                image2="/image64@2x.png"
-                image3="/image65@2x.png"
-                heading="Comedy"
-                icon="/icon-51.svg"
-              />
-              <Card3
-                image="/image66@2x.png"
-                image1="/image67@2x.png"
-                image2="/image68@2x.png"
-                image3="/image69@2x.png"
-                heading="Drama"
-                icon="/icon-51.svg"
-              />
-              <Card3
-                image="/image70@2x.png"
-                image1="/image71@2x.png"
-                image2="/image72@2x.png"
-                image3="/image73@2x.png"
-                heading="Horror"
-                icon="/icon-51.svg"
-              />
-            </div>
-          </div>
-          <div className="self-stretch flex flex-col items-start justify-start gap-[50px] max-w-full mq825:gap-[25px]">
+      <div className="h-[2800px] w-[1597px] relative max-w-full mq1575:h-auto mq1575:min-h-[3318]">
+        <div className="absolute top-[20px] left-[0px] rounded-xl border-t-transparent border-black-15 border-[1px] border-solid box-border w-full flex flex-col items-start justify-start py-12 px-[49px] gap-[100px] max-w-full z-[1] text-left text-19xl mq825:gap-[50px] mq1250:pl-6 mq1250:pr-6 mq1250:box-border mq450:gap-[25px]">
+          <div className="self-stretch  flex flex-col items-start justify-start gap-[50px] max-w-full mq825:gap-[25px]">
             <div className="self-stretch flex flex-row items-start justify-between max-w-full gap-5 mq1575:flex-wrap">
               <div className="w-[1140px] flex flex-col items-start justify-start pt-[15.5px] px-0 pb-0 box-border max-w-full">
                 <b className="self-stretch relative leading-[150%] mq825:text-11xl mq825:leading-[46px] mq450:text-4xl mq450:leading-[34px]">
