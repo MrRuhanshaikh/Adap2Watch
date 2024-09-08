@@ -6,8 +6,44 @@
 body {
   @apply leading-[normal] m-0;
 }
+@media screen and (max-width:300px) {
+    body{
+      display: none;
+    }
+}
 *,
 ::before,
 ::after {
   border-width: 0;
 }
+@layer utilities {
+  @keyframes marquee {
+    0% {
+      transform: translateX(0%);
+    }
+    100% {
+      transform: translateX(-50%);
+    }
+  }
+
+  .scroll-wrapper {
+    overflow: hidden;
+    width: 100vw;
+    position: relative; /* Ensure relative positioning for the wrapper */
+  }
+
+  .animate-scroll {
+    display: flex;
+    animation: marquee 20s linear infinite alternate-reverse ;
+    width: 200%; /* Ensure it's twice the width of the container to account for the full scroll */
+  }
+
+  .scroll-wrapper img {
+    height: 200px; /* Or your desired height */
+    width: 195.6px; /* Or your desired width */
+    object-fit: cover;
+    flex-shrink: 0; /* Prevent images from shrinking */
+  }
+}
+
+

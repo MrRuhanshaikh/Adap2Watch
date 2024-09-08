@@ -59,36 +59,12 @@ module.exports = {
       inherit: "inherit",
     },
     screens: {
-      // mq1825: {
-      //   raw: "screen and (max-width: 1825px)",
-      // },
-      // mq1700: {
-      //   raw: "screen and (max-width: 1700px)",
-      // },
-      // mq1575: {
-      //   raw: "screen and (max-width: 1575px)",
-      // },
-      // mq1350: {
-      //   raw: "screen and (max-width: 1350px)",
-      // },
-      // mq1325: {
-      //   raw: "screen and (max-width: 1325px)",
-      // },
-      // mq1250: {
-      //   raw: "screen and (max-width: 1250px)",
-      // },
-      // mq925: {
-      //   raw: "screen and (max-width: 925px)",
-      // },
-      // mq900: {
-      //   raw: "screen and (max-width: 900px)",
-      // },
-      // mq825: {
-      //   raw: "screen and (max-width: 825px)",
-      // },
-      // mq450: {
-      //   raw: "screen and (max-width: 450px)",
-      // },
+      'above-350px':'350px',
+      'sm': '640px',
+      'md': '768px',
+      'lg': '1024px',
+      'xl': '1280px',
+      '2xl': '1536px',
     },
   },
   corePlugins: {

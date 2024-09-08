@@ -32,7 +32,7 @@ const Hero = ({
       className={`self-stretch flex flex-row items-start justify-center pt-0 pb-[50px] pl-[22px] pr-5 box-border max-w-full text-center text-19xl text-absolute-white font-manrope mq450:pb-[21px] mq450:box-border mq1250:pb-8 mq1250:box-border ${className}`}
     >
       <div
-        className="w-[1594px] rounded-xl overflow-hidden shrink-0 flex flex-col items-center justify-end pt-[639px] px-[49px] pb-[18px] box-border gap-[30px] bg-[url('/container@3x.png')] bg-cover bg-no-repeat bg-[top] max-w-full mq450:pt-[270px] mq450:box-border mq825:gap-[15px] mq825:pt-[415px] mq825:box-border mq1250:pl-6 mq1250:pr-6 mq1250:box-border"
+        className="w-[1594px] mt-48 rounded-xl overflow-hidden shrink-0 flex flex-col items-center justify-end pt-[639px] px-[49px] pb-[18px] box-border gap-[30px] bg-[url('/container@3x.png')] bg-cover bg-no-repeat bg-[top] max-w-full mq450:pt-[270px] mq450:box-border mq825:gap-[15px] mq825:pt-[415px] mq825:box-border mq1250:pl-6 mq1250:pr-6 mq1250:box-border"
         style={containerStyle}
       >
         <div className="self-stretch flex flex-col items-center justify-start gap-1 max-w-full">

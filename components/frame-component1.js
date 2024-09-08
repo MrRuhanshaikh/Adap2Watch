@@ -8,7 +8,7 @@ const FrameComponent1 = ({ className = "" }) => {
     >
       <div className="self-stretch flex flex-row items-end justify-between max-w-full gap-5 mq1825:flex-wrap mq1825:justify-center">
         <div className="w-[1240px] flex flex-col items-start justify-start gap-3.5 max-w-full">
-          <h1 className="m-0 self-stretch relative text-inherit leading-[150%] font-bold font-[inherit] mq450:text-4xl mq450:leading-[34px] mq925:text-11xl mq925:leading-[46px]">
+          <h1 className="m-0 self-stretch relative text-[28px] sm:text-inherit leading-[150%] font-bold font-[inherit]">
             Explore our wide variety of categories
           </h1>
           <div className="self-stretch relative text-lg leading-[150%] text-grey-60">

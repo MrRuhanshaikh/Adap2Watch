@@ -7,7 +7,7 @@ import Footer from "../components/footer";
 
 const ShowsPageOpenDesktop = () => {
   return (
-    <div className="w-full relative bg-black-08 overflow-hidden flex flex-col items-start justify-start gap-[50px] leading-[normal] tracking-[normal] mq825:gap-[25px]">
+    <div className="w-full  relative bg-black-08 overflow-hidden flex flex-col items-start justify-start gap-[50px] leading-[normal] tracking-[normal] mq825:gap-[25px]">
       <Navbar1 />
       <Hero
         iconBackgroundImage="url('/container1@3x.png')"

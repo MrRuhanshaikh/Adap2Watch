@@ -6,7 +6,7 @@ const FrameComponent2 = ({ className = "" }) => {
     <div
       className={`self-stretch flex flex-row items-start justify-center py-0 pl-[27px] pr-5 box-border max-w-full text-left text-29xl text-absolute-white font-manrope ${className}`}
     >
-      <div className="w-[1589px] flex flex-row items-start justify-start gap-20 max-w-full mq1575:flex-wrap mq825:gap-10 mq450:gap-5">
+      <div className="w-[1589px] mt-48 flex flex-row items-start justify-start gap-20 max-w-full mq1575:flex-wrap mq825:gap-10 mq450:gap-5">
         <div className="h-[739px] w-[533px] flex flex-col items-start justify-start gap-[50px] min-w-[533px] max-w-full mq1575:flex-1 mq825:gap-[25px] mq825:min-w-full">
           <div className="self-stretch flex flex-col items-start justify-start gap-3.5 shrink-0">
             <h1 className="m-0 self-stretch relative text-inherit leading-[150%] font-bold font-[inherit] mq825:text-19xl mq825:leading-[58px] mq450:text-10xl mq450:leading-[43px]">
