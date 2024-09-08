@@ -13,18 +13,18 @@ const HomePageDesktop = () => {
       <div className="self-stretch flex flex-col items-start justify-start max-w-full">
         <div className="self-stretch h-[880px] flex flex-col items-start justify-start relative gap-5 :h-auto :min-h-[860]">
           <img
-            className=" hidden sm:block w-full h-full absolute !m-[0] top-[calc(50%_-_430px)] left-[0px] rounded-xl object-cover mix-blend-overlay z-[1]"
-            alt=""
-            src="/image2@2x.png"
-          />
-           <img
-            className=" sm:hidden  w-full h-full absolute !m-[0] top-[calc(50%_-_330px)] left-[0px] rounded-xl object-cover mix-blend-overlay z-[1]"
+            className="w-full h-full absolute !m-[0] top-[calc(50%_-_430px)] left-[0px] rounded-xl object-cover mix-blend-overlay z-[1]"
             alt=""
             src="/image2@2x.png"
           />
           <TopContent />
           <img
-            className="animate-pulse w-[200px] h-[200px] above-350px:w-[300px] above-350px:h-[300px] sm:w-[400px] sm:h-[400px] absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 z-[4]"
+            className="hidden sm:block animate-pulse w-[200px] h-[200px] above-350px:w-[300px] above-350px:h-[300px] sm:w-[400px] sm:h-[400px] absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 z-[4]"
+            alt=""
+            src="/abstract-design.svg"
+          />
+          <img
+            className="sm:hidden animate-pulse w-[150px] h-[150px] above-350px:w-[300px] above-350px:h-[300px] sm:w-[400px] sm:h-[400px] absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-[75%] z-[4]"
             alt=""
             src="/abstract-design.svg"
           />
@@ -122,17 +122,17 @@ const HomePageDesktop = () => {
                   for non-stop entertainment!
                 </div>
                 <div className="sm:hidden rounded-3xs bg-black-06 border-black-15 border-[1px] border-solid flex flex-row items-center justify-start py-2 px-[9px] text-lg text-grey-60">
-                <button className="cursor-pointer [border:none] py-3.5 px-6 bg-black-12 rounded-3xs flex flex-row items-center justify-center hover:bg-dimgray-200">
-                  <div className="relative text-lg leading-[150%] font-medium font-manrope text-absolute-white text-left inline-block min-w-[70px]">
-                    Monthly
-                  </div>
-                </button>
-                <div className="rounded-81xl flex flex-row items-center justify-center py-3.5 px-6">
-                  <div className="relative leading-[150%] font-medium inline-block min-w-[51px]">
-                    Yearly
+                  <button className="cursor-pointer [border:none] py-3.5 px-6 bg-black-12 rounded-3xs flex flex-row items-center justify-center hover:bg-dimgray-200">
+                    <div className="relative text-lg leading-[150%] font-medium font-manrope text-absolute-white text-left inline-block min-w-[70px]">
+                      Monthly
+                    </div>
+                  </button>
+                  <div className="rounded-81xl flex flex-row items-center justify-center py-3.5 px-6">
+                    <div className="relative leading-[150%] font-medium inline-block min-w-[51px]">
+                      Yearly
+                    </div>
                   </div>
                 </div>
-              </div>
               </div>
               <div className=" hidden sm:block rounded-3xs bg-black-06 border-black-15 border-[1px] border-solid flex flex-row items-center justify-start py-2 px-[9px] text-lg text-grey-60">
                 <button className="cursor-pointer [border:none] py-3.5 px-6 bg-black-12 rounded-3xs flex flex-row items-center justify-center hover:bg-dimgray-200">
