@@ -23,11 +23,6 @@ const HomePageDesktop = () => {
             alt=""
             src="/abstract-design.svg"
           />
-          <img
-            className="sm:hidden animate-pulse w-[150px] h-[150px] above-350px:w-[300px] above-350px:h-[300px] sm:w-[400px] sm:h-[400px] absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-[75%] z-[4]"
-            alt=""
-            src="/abstract-design.svg"
-          />
         </div>
         <div className="self-stretch flex flex-row items-start justify-center py-0 px-5 box-border max-w-full ">
           <h1 className="mt-10 w-[1096px] relative text-[28px] sm:text-inherit leading-[150%] font-bold font-[inherit] inline-block shrink-0 max-w-full z-[5] ">
