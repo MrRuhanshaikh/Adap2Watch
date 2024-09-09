@@ -15,7 +15,7 @@ const TopContent = ({ className = "" }) => {
       <div className="scroll-wrapper">
         <div className="animate-scroll">
           {/* Duplicate images for a seamless scroll */}
-          <div className="h-[680px] sm:h-[880px] overflow-y-hidden flex flex-row items-start flex-wrap justify-center gap-5">
+          <div className="h-[700px] sm:h-[880px] overflow-y-hidden flex flex-row items-start flex-wrap justify-center gap-5">
           <img
           className="h-[200px] w-[195.6px] relative rounded-xl object-cover min-h-[200px]"
           alt=""
