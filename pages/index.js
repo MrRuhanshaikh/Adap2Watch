@@ -11,7 +11,7 @@ const HomePageDesktop = () => {
   return (
     <div className="overflow-x-hidden w-full relative bg-black-08 flex flex-col items-start justify-start gap-3.5 leading-[normal] tracking-[normal] text-center text-[58px] text-absolute-white font-manrope">
       <div className="self-stretch flex flex-col items-start justify-start max-w-full">
-        <div className="self-stretch h-[880px] flex flex-col items-start justify-start relative gap-5 :h-auto :min-h-[860]">
+        <div className="self-stretch h-[740px] sm:h-[880px] flex flex-col items-start justify-start relative gap-5 :h-auto :min-h-[860]">
           <img
             className="w-full h-full absolute !m-[0] top-[calc(50%_-_430px)] left-[0px] rounded-xl object-cover mix-blend-overlay z-[1]"
             alt=""
@@ -20,6 +20,11 @@ const HomePageDesktop = () => {
           <TopContent />
           <img
             className="hidden sm:block animate-pulse w-[200px] h-[200px] above-350px:w-[300px] above-350px:h-[300px] sm:w-[400px] sm:h-[400px] absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 z-[4]"
+            alt=""
+            src="/abstract-design.svg"
+          />
+          <img
+            className="sm:hidden w-[200px] h-[200px] above-350px:w-[300px] above-350px:h-[300px] sm:w-[400px] sm:h-[400px] absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 z-[4]"
             alt=""
             src="/abstract-design.svg"
           />

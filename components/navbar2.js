@@ -13,8 +13,8 @@ const Navbar2 = ({ className = "" }) => {
     <header className="absolute  top-[0px] left-[-1px] w-full h-[120px] flex flex-row items-center justify-between px-[20px] lg:px-[162px] pt-[22px] pb-[23px] box-border gap-5 z-[5] text-left text-lg text-grey-75 font-manrope">
     {/* Logo */}
     <div className="flex items-center">
-      <img className="hidden sm:block h-[40px] w-[199px] relative" alt="" src="logo.png" />
-      <img className="sm:hidden h-[40px] w-[40px] relative" alt="" src="favicon.ico" />
+    <Link className="no-underline text-current" href="/"><img className="hidden sm:block h-[40px] w-[199px] relative" alt="" src="logo.png" /></Link>
+    <Link className="no-underline text-current" href="/"><img className="sm:hidden h-[40px] w-[40px] relative" alt="" src="favicon.ico" /></Link>
     </div>
 
     {/* Desktop Menu */}
@@ -25,18 +25,18 @@ const Navbar2 = ({ className = "" }) => {
 
     {/* Desktop Center Menu */}
     <div className="hidden lg:flex !m-[0] absolute top-[calc(50%_-_42px)] left-[calc(50%_-_281.5px)] rounded-xl bg-black-06 border-black-12 border-[4px] border-solid overflow-hidden flex-row items-center justify-start py-[5px] pl-1.5 pr-9 gap-[30px]">
-      <button className="cursor-pointer border-black-10 border-[1px] border-solid py-3 px-[23px] bg-black-10 w-[98px] rounded-lg box-border flex flex-row items-center justify-start hover:bg-dimgray-300 hover:border-dimgray-300 hover:border-[1px] hover:border-solid hover:box-border">
-        <div className="relative text-lg leading-[150%] font-medium font-manrope text-absolute-white text-left inline-block min-w-[50px]">
+    <div className="relative leading-[150%] inline-block min-w-[68px] ml-5">
           <Link className="no-underline text-current" href="/">Home</Link>
         </div>
-      </button>
       <div className="relative leading-[150%] whitespace-nowrap">
         <Link className="no-underline text-current" href="movies-shows-page">{`Movies & Shows`}</Link>
       </div>
-      <div className="relative leading-[150%] inline-block min-w-[68px]">
+      <button className="cursor-pointer border-black-10 border-[1px] border-solid py-3 px-[23px] bg-black-10 w-[120px] rounded-lg box-border flex flex-row items-center justify-start hover:bg-dimgray-300 hover:border-dimgray-300 hover:border-[1px] hover:border-solid hover:box-border">
+      <div className="relative text-lg leading-[150%] font-medium font-manrope text-absolute-white text-left inline-block min-w-[50px]">
         <Link className="no-underline text-current" href="support-page-desktop">Support</Link>
       </div>
-      <div className="relative leading-[150%] inline-block min-w-[116px]">
+      </button>
+      <div className="relative leading-[150%] inline-block min-w-[116px] ">
         <Link className="no-underline text-current" href="subscription-page-desktop">Subscriptions</Link>
       </div>
     </div>

@@ -44,6 +44,11 @@ body {
     object-fit: cover;
     flex-shrink: 0; /* Prevent images from shrinking */
   }
+  @media (max-width: 500px) { /* Adjust this breakpoint as needed */
+    .animate-scroll {
+      animation: marquee 7s linear infinite alternate;
+      width: 250%; /* Ensure it's twice the width of the container to account for the full scroll */
+    }
 }
-
+}
 

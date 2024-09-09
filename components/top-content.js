@@ -15,7 +15,7 @@ const TopContent = ({ className = "" }) => {
       <div className="scroll-wrapper">
         <div className="animate-scroll">
           {/* Duplicate images for a seamless scroll */}
-          <div className="h-[880px] overflow-y-hidden flex flex-row items-start flex-wrap justify-center gap-5">
+          <div className="h-screen sm:h-[880px] overflow-y-hidden flex flex-row items-start flex-wrap justify-center gap-5">
           <img
           className="h-[200px] w-[195.6px] relative rounded-xl object-cover min-h-[200px]"
           alt=""
@@ -304,8 +304,8 @@ const TopContent = ({ className = "" }) => {
       <header className="absolute top-[0px] left-[-1px] w-full h-[120px] flex flex-row items-center justify-between px-[20px] lg:px-[162px] pt-[22px] pb-[23px] box-border gap-5 z-[5] text-left text-lg text-grey-75 font-manrope">
         {/* Logo */}
         <div className="flex items-center">
-          <img className="hidden sm:block h-[40px] w-[199px] relative" alt="" src="logo.png" />
-          <img className="sm:hidden h-[40px] w-[40px] relative" alt="" src="favicon.ico" />
+          <Link className="no-underline text-current" href="/"><img className="hidden sm:block h-[40px] w-[199px] relative" alt="" src="logo.png" /></Link>
+          <Link className="no-underline text-current" href="/"><img className="sm:hidden h-[40px] w-[40px] relative" alt="" src="favicon.ico" /></Link>
         </div>
 
         {/* Desktop Menu */}
