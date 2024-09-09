@@ -11,7 +11,7 @@ const HomePageDesktop = () => {
   return (
     <div className="overflow-x-hidden w-full relative bg-black-08 flex flex-col items-start justify-start gap-3.5 leading-[normal] tracking-[normal] text-center text-[58px] text-absolute-white font-manrope">
       <div className="self-stretch flex flex-col items-start justify-start max-w-full">
-        <div className="self-stretch h-[740px] sm:h-[880px] flex flex-col items-start justify-start relative gap-5 :h-auto :min-h-[860]">
+        <div className="self-stretch h-screen sm:h-[880px] flex flex-col items-start justify-start relative gap-5 :h-auto :min-h-[860]">
           <img
             className="w-full h-full absolute !m-[0] top-[calc(50%_-_430px)] left-[0px] rounded-xl object-cover mix-blend-overlay z-[1]"
             alt=""
